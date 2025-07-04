@@ -1,6 +1,17 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verendo Home</title>
+</head>
+<body>
 
-{% block content %}
-<h2>VERENDO.SHOP</h2>
-<p>This is the homepage.</p>
-{% endblock %}
+  <h1>Welcome to Verendo Website</h1>
+
+  <!-- Display the image -->
+  <img src="{{ url_for('static', filename='verendo_homepage.png') }}" alt="Verendo Homepage Design" width="500">
+
+</body>
+</html>
+
+
